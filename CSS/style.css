@@ -1,0 +1,243 @@
+.one {
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url(https://images.wallpaperscraft.com/image/books_library_old_111388_3840x2400.jpg);
+	background-position: center;
+	background-size: cover;
+	opacity: 1;
+  	filter: alpha(opacity=50);
+}
+.nav {
+	list-style-type: none;
+	text-align: right;
+	padding: 5px;
+}
+.nav li{
+	display: inline-block;
+	height: 100vh;
+	font-size: 20px;
+	padding: 15px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff transparent;
+	padding : 2px 10px;
+	transition: 0.5s ease;
+}
+.black{
+	position: absolute;
+	top: 0%;
+	left: 0;
+	background-color: #000;
+	width: 100%;
+	height: 530%;
+	opacity: 1;
+	z-index: -999;
+}
+.nav li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.nav li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.logo a img{
+	float: left;
+	width: 50px;
+	opacity: 1;
+}
+.title{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font: Century Gothic;
+	font-size: 80px;
+	opacity: 0.95;
+}
+.button{
+		position: absolute;
+		top:60%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size: 20px;
+		padding: 5px;
+}
+.button a{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff transparent;
+	padding : 2px 10px;
+	transition: 0.5s ease;
+}
+.button a:hover{
+	color: #FF0000;
+}
+.video-container{
+	position: absolute;
+	width: 98%;
+	z-index: -1;
+}
+.color-overlay{
+	position: absolute;
+	top: 116.2%;
+	left: 0;
+	background-color: #000;
+	width: 100%;
+	height: 117.5%;
+	opacity: 0.8;
+}
+.content{
+	color: #fff;
+	opacity: 0.99;
+}
+.content h1{
+	color: #fff;
+	font: Century Gothic;
+	font-size: 70px;
+	text-align: center;
+}
+.content ul li{
+	font-size: 30px;
+	padding: 10px;
+	margin: 5px;
+}
+.motivation h1{
+	font-size: 30px;
+	color: #fff;
+}
+.motivation{
+	position: absolute;
+	top: 236%;
+	left: 10.8%;
+}
+.featured{
+	position: absolute;
+	top: 340%;
+	left: 1%
+}
+.featured h2{
+	color: #fff;
+	font-size: 30px;
+}
+.featured table tr td{
+	color: #fff;	
+}
+.featured table tr td button{
+	text-decoration: none;
+	color: #000;
+	padding : 2px 10px;
+	transition: 0.5s ease;
+	border-radius: 10px;
+}
+.featured table tr td button:hover{
+	color: #fff;
+	background-color: #000;
+	opacity: 0.75;
+}
+.loc{
+	position: absolute;
+	top: 410%;
+	left: 43%;
+}
+.loc h2{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+.location{
+	position: absolute;
+	top: 424%;
+	left: 15.8%;
+}
+.last1{
+	position: absolute;
+	top: 475%;
+	left: 23.3%;
+}
+.last1 img{
+	float: left;
+	width: 35px;
+}
+.last1 p{
+	text-align: center;
+	margin-left: 25px;
+	padding: 5px;
+	display: inline;
+	color: #fff;
+	font-size: 20px;
+} 
+.last2{
+	position: absolute;
+	top: 485%;
+	left: 40.3%;
+}
+.last2 img{
+	float: left;
+	width: 35px;
+}
+.last2 p{
+	text-align: center;
+	margin-left: 25px;
+	padding: 5px;
+	display: inline;
+	color: #fff;
+	font-size: 20px;
+}
+.last3{
+	position: absolute;
+	top: 495%;
+	left: 38.3%;
+}
+.last3 img{
+	float: left;
+	width: 35px;
+}
+.last3 p{
+	text-align: center;
+	margin-left: 25px;
+	padding: 5px;
+	display: inline;
+	color: #fff;
+	font-size: 20px;
+}
+.news-container{
+	position: absolute;
+	top: 500%;
+	left: 34.5%;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+.email-box{
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.email-box i{
+	background: #000;
+	width: 40px;
+	line-height: 40px; 
+	opacity: 0.8;
+}
+.tbox,.btn{
+	border: none;
+	outline: none;
+}
+.tbox{
+	width: 0px;
+	transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+	width: 260px;
+	padding: 0px 10px;
+}
+.btn{
+	color: #fff;
+	background: #000;
+	padding: 0px 10px;
+	text-transform: uppercase;
+}
