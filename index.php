@@ -1,1 +1,1 @@
-<?php header('summer2019:/index.html');?>
+<?php header('Location:/index.html');?>
